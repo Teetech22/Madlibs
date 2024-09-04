@@ -1,0 +1,12 @@
+# These 3 examples highlight how we can put strings together (Concatenation)
+
+# Sample Example: Create a string that achieves the output "follow me on ____"
+my_ticktock = "TickTok @ taiwoakinwolere"
+#Solution 1
+print("follow me on "  + my_ticktock )
+
+#Solution 2
+print("follow me on {}".format(my_ticktock))
+
+#Solution 3
+print (f"follow me on {my_ticktock}")
